@@ -2,9 +2,17 @@
 import React from "react";
 import Drivers from "@/route-vehicle-fare.json";
 import DiversSakyanan from "./DiversVehicle";
+import { useEffect, useState } from "react";
 
 const DriversCard = () => {
-  const drivers = Drivers.sort(() => Math.random() - Math.random()).slice(0, 3);
+  const [drivers, setDrivers] = useState([]);
+
+  useEffect(() => {
+    const shuffled = [...Drivers]
+      .sort(() => Math.random() - Math.random())
+      .slice(0, 3);
+    setDrivers(shuffled);
+  }, []);
 
   return (
     <div className="flex p-4 items-center justify-center gap-6 flex-wrap">
