@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "driverName": "Edon Burnok",
+    "image": "/images/drivers/juan.jpg",
+    "vehicle": {
+      "plateNumber": "ABC-1234",
+      "type": "Van ",
+      "capacity": 12,
+      "image": "a2.jpg"
+    },
+    "route": {
+      "from": "Isabel",
+      "to": "Ormoc",
+      "stops": ["Jollibee", "SM", "Overpass"]
+    },
+    "fare": {
+      "baseFare": 115.0,
+      "perKm": 2.5
+    }
+  },
+  {
+    "id": 2,
+    "driverName": "Miyung Mercadal",
+    "image": "/images/drivers/mark.jpg",
+    "vehicle": {
+      "plateNumber": "XYZ-9001",
+      "type": "Bus Benjie",
+      "capacity": 4,
+      "image": "a3.jpg"
+    },
+    "route": {
+      "from": "Isabel",
+      "to": "Palompon",
+      "stops": ["Petron", "7-Eleven"]
+    },
+    "fare": {
+      "baseFare": 80.0,
+      "perKm": 3.0
+    }
+  },
+  {
+    "id": 2,
+    "driverName": "Jaspher Bregildo",
+    "image": "/images/drivers/mark.jpg",
+    "vehicle": {
+      "plateNumber": "Uwu-4200",
+      "type": "Bus Benjie",
+      "capacity": 4,
+      "image": "a1.jpeg"
+    },
+    "route": {
+      "from": "Isabel",
+      "to": "Merida",
+      "stops": ["Petron", "7-Eleven"]
+    },
+    "fare": {
+      "baseFare": 50.0,
+      "perKm": 3.0
+    }
+  },
+  {
+    "id": 2,
+    "driverName": "Jemalyn Manguilimotan",
+    "image": "/images/drivers/mark.jpg",
+    "vehicle": {
+      "plateNumber": "Uwu-143",
+      "type": "Bus Benjie",
+      "capacity": 4,
+      "image": "a5.jpg"
+    },
+    "route": {
+      "from": "Isabel",
+      "to": "Ormoc",
+      "stops": ["Petron", "7-Eleven"]
+    },
+    "fare": {
+      "baseFare": 50.0,
+      "perKm": 3.0
+    }
+  },
+  {
+    "id": 2,
+    "driverName": "Axcell ROss Antoque",
+    "image": "/images/drivers/mark.jpg",
+    "vehicle": {
+      "plateNumber": "Uwu-143",
+      "type": "Bus Benjie",
+      "capacity": 4,
+      "image": "a1.jpeg"
+    },
+    "route": {
+      "from": "Isabel",
+      "to": "Palompon",
+      "stops": ["Petron", "7-Eleven"]
+    },
+    "fare": {
+      "baseFare": 50.0,
+      "perKm": 3.0
+    }
+  }
+]

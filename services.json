@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Vehicle Booking",
+    "description": "Book a vehicle for your desired route with ease and reliability.",
+    "icon": "🚗"
+  },
+  {
+    "title": "Fare Estimation",
+    "description": "Get instant fare estimates for your selected routes and vehicles.",
+    "icon": "💸"
+  },
+  {
+    "title": "Driver Profiles",
+    "description": "View detailed profiles of drivers and their vehicles.",
+    "icon": "🧑‍✈️"
+  },
+  {
+    "title": "Customer Support",
+    "description": "Reach out to our support team for any assistance or queries.",
+    "icon": "📞"
+  }
+]
