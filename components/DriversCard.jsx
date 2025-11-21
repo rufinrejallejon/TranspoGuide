@@ -7,7 +7,7 @@ const DriversCard = () => {
 
   return (
     <div className="flex p-4 items-center justify-center gap-6 flex-wrap">
-      {drivers === 0 ? (
+      {drivers.length === 0 ? (
         <p>No drivers available.</p>
       ) : (
         drivers.map((driver, idx) => (
