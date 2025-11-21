@@ -15,7 +15,7 @@ const DiversSakyanan = ({ driver }) => {
               src={`/images/${driver.vehicle.image}`}
               alt=""
               fill
-              sizes="0"
+              sizes="(max-width: 768px) 100vw, 300px"
               loading="eager"
               className="object-cover [clip-path:polygon(0%_0%,100%_0%,100%_80%,50%_100%,0%_80%)]"
             />
