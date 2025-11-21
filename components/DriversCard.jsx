@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Drivers from "@/route-vehicle-fare.json";
 import DiversSakyanan from "./DiversVehicle";
@@ -12,7 +11,7 @@ const DriversCard = () => {
         <p>No drivers available.</p>
       ) : (
         drivers.map((driver, idx) => (
-          <DiversSakyanan key={idx} driver={driver} />
+          <DiversSakyanan key={idx} className="w-64" driver={driver} />
         ))
       )}
     </div>

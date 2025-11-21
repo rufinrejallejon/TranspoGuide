@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { FaUserCircle } from "react-icons/fa";
@@ -7,7 +8,7 @@ const DiversSakyanan = ({ driver }) => {
   return (
     <>
       <div className="flex p-4 items-center justify-center gap-6 flex-wrap">
-        <div className="w-full max-w-md  rounded-xl shadow-lg bg-white overflow-hidden relative font-sans">
+        <div className="w-64 rounded-xl shadow-lg bg-white overflow-hidden relative font-sans">
           {/* Top colored part */}
           <div className={` h-40 relative overflow-hidden`}>
             {/* Curved separator at bottom of the colored block */}
