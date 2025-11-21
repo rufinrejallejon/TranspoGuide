@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Drivers from "@/route-vehicle-fare.json";
 import DiversSakyanan from "./DiversVehicle";
