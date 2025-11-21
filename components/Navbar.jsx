@@ -17,7 +17,9 @@ const Navbar = () => {
         <div className="flex items-center gap-2 cursor-pointer md:ml-4">
           <FaBars
             size={24}
-            className="md:hidden"
+            className={`md:hidden cursor-pointer ${
+              isMenuOpen ? "rotate-90" : "rotate-0"
+            } transition-transform`}
             onClick={() => setIsMenuOpen((prev) => !prev)}
           />
           <h1 className="text-xl text-[#E8EDDF] font-bold">
